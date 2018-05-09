@@ -4,7 +4,7 @@ Feature: Web
 	As a ...
 	I want to ...
 	
-  @wip @test1 @test2
+  @wip @test1 @test2 @test3
   Scenario: Search Iphone
   
 	Given I am on amazon home page
