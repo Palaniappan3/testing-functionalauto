@@ -1,0 +1,88 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6220184793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openWebSite()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Search Iphone",
+        "description": "",
+        "id": "web;search-iphone",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 345759094,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am on amazon home page",
+            "match": {
+              "location": "StepDefs.i_am_on_amazon_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2820258711,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I search for \"Iphone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Iphone",
+                  "offset": 14
+                }
+              ],
+              "location": "StepDefs.i_search_for(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12660474,
+              "error_message": "cucumber.api.PendingException: TODO: implement me\n\tat com.practice.stepdefs.StepDefs.i_should_see_list_of_different_iPhones(StepDefs.java:38)\n\tat ✽.Then I should see list of different iPhones(features/web.feature:12)\n",
+              "status": "pending"
+            },
+            "line": 12,
+            "name": "I should see list of different iPhones",
+            "match": {
+              "location": "StepDefs.i_should_see_list_of_different_iPhones()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Web",
+    "description": "In order to ...\nAs a ...\nI want to ...",
+    "id": "web",
+    "keyword": "Feature",
+    "uri": "features/web.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@web"
+      }
+    ]
+  }
+]

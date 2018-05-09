@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: WebIT
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 10.596 sec <<< FAILURE! - in WebIT
+Then I should see list of different iPhones(Scenario: Search Iphone)  Time elapsed: 0.004 sec  <<< ERROR!
+cucumber.api.PendingException: TODO: implement me
+	at com.practice.stepdefs.StepDefs.i_should_see_list_of_different_iPhones(StepDefs.java:38)
+	at ✽.Then I should see list of different iPhones(features/web.feature:12)
+
+Scenario: Search Iphone  Time elapsed: 0.005 sec  <<< ERROR!
+cucumber.api.PendingException: TODO: implement me
+	at com.practice.stepdefs.StepDefs.i_should_see_list_of_different_iPhones(StepDefs.java:38)
+	at ✽.Then I should see list of different iPhones(features/web.feature:12)
+
